@@ -1,4 +1,9 @@
 Pinterest::Application.routes.draw do
+  #get "pages/home"
+  root :to => 'pages#home'
+  get 'about' => 'pages#about'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
