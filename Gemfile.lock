@@ -133,7 +133,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
-  paperclip (~> 3.0)
+  paperclip (~> 3.4.1)
   pg
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)

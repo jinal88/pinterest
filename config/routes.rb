@@ -5,7 +5,7 @@ Pinterest::Application.routes.draw do
   devise_for :users
 
   #get "pages/home"
-  root :to => 'pages#home'
+  root :to => 'pins#index'
   get 'about' => 'pages#about'
 
 
